@@ -1,0 +1,7 @@
+Test_Name,Test_Type,P_Value,Significant,Effect_Size,Effect_Size_Type,Effect_Size_Interpretation
+alcohol_comprehensive_total_phenols_ttest,Independent T-Test,2.0437330342529418e-05,True,-0.6565693542286607,Cohen's d,medium
+alcohol_comprehensive_flavanoids_ttest,Independent T-Test,0.0004071575920084781,True,-0.5404553521415445,Cohen's d,medium
+alcohol_comprehensive_color_intensity_ttest,Independent T-Test,1.7247017657702508e-12,True,-1.1390783803464584,Cohen's d,large
+alcohol_comprehensive_hue_ttest,Independent T-Test,0.44514722097224,False,0.11474490603781196,Cohen's d,negligible
+alcohol_comprehensive_proline_ttest,Independent T-Test,2.5373486065839036e-19,True,-1.52061552791595,Cohen's d,large
+alcohol_comprehensive_malic_acid_ttest,Independent T-Test,0.10886973044582925,False,-0.24163020880541364,Cohen's d,small

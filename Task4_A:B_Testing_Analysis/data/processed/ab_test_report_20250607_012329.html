@@ -1,0 +1,155 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>A/B Testing Analysis Report</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 40px; }
+                .header { background-color: #f0f0f0; padding: 20px; border-radius: 5px; }
+                .section { margin: 20px 0; padding: 15px; border-left: 4px solid #007acc; }
+                .metric { background-color: #f9f9f9; padding: 10px; margin: 5px 0; }
+                .significant { color: #d32f2f; font-weight: bold; }
+                .not-significant { color: #388e3c; }
+                table { border-collapse: collapse; width: 100%; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>A/B Testing Analysis Report</h1>
+                <p>Generated on: 2025-06-07 01:23:29</p>
+                <p>Dataset: Wine Quality Analysis</p>
+            </div>
+            
+            <div class="section">
+                <h2>Executive Summary</h2>
+                <div class="metric">Total Tests: 18</div>
+                <div class="metric">Significant Results: 10</div>
+                <div class="metric">Success Rate: 55.6%</div>
+                <div class="metric">Priority: High</div>
+            </div>
+            
+            <div class="section">
+                <h2>Key Findings</h2>
+                <table>
+                    <tr><th>Test</th><th>Effect Size</th><th>Significance</th></tr>
+        
+                    <tr>
+                        <td>alcohol_comprehensive_total_phenols_ttest</td>
+                        <td>-0.6565693542286607</td>
+                        <td class="significant">Significant</td>
+                    </tr>
+            
+                    <tr>
+                        <td>alcohol_comprehensive_flavanoids_ttest</td>
+                        <td>-0.5404553521415445</td>
+                        <td class="significant">Significant</td>
+                    </tr>
+            
+                    <tr>
+                        <td>alcohol_comprehensive_color_intensity_ttest</td>
+                        <td>-1.1390783803464584</td>
+                        <td class="significant">Significant</td>
+                    </tr>
+            
+                    <tr>
+                        <td>alcohol_comprehensive_hue_ttest</td>
+                        <td>0.11474490603781196</td>
+                        <td class="not-significant">Not Significant</td>
+                    </tr>
+            
+                    <tr>
+                        <td>alcohol_comprehensive_proline_ttest</td>
+                        <td>-1.52061552791595</td>
+                        <td class="significant">Significant</td>
+                    </tr>
+            
+                    <tr>
+                        <td>alcohol_comprehensive_malic_acid_ttest</td>
+                        <td>-0.24163020880541364</td>
+                        <td class="not-significant">Not Significant</td>
+                    </tr>
+            
+                    <tr>
+                        <td>alcohol_advanced_total_phenols_ttest</td>
+                        <td>-0.6565693542286607</td>
+                        <td class="significant">Significant</td>
+                    </tr>
+            
+                    <tr>
+                        <td>alcohol_advanced_total_phenols_bayesian</td>
+                        <td>N/A</td>
+                        <td class="not-significant">Not Significant</td>
+                    </tr>
+            
+                    <tr>
+                        <td>alcohol_advanced_total_phenols_bootstrap</td>
+                        <td>N/A</td>
+                        <td class="significant">Significant</td>
+                    </tr>
+            
+                    <tr>
+                        <td>alcohol_advanced_total_phenols_sequential</td>
+                        <td>N/A</td>
+                        <td class="not-significant">Not Significant</td>
+                    </tr>
+            
+                    <tr>
+                        <td>alcohol_advanced_flavanoids_ttest</td>
+                        <td>-0.5404553521415445</td>
+                        <td class="significant">Significant</td>
+                    </tr>
+            
+                    <tr>
+                        <td>alcohol_advanced_flavanoids_bayesian</td>
+                        <td>N/A</td>
+                        <td class="not-significant">Not Significant</td>
+                    </tr>
+            
+                    <tr>
+                        <td>alcohol_advanced_flavanoids_bootstrap</td>
+                        <td>N/A</td>
+                        <td class="significant">Significant</td>
+                    </tr>
+            
+                    <tr>
+                        <td>alcohol_advanced_flavanoids_sequential</td>
+                        <td>N/A</td>
+                        <td class="not-significant">Not Significant</td>
+                    </tr>
+            
+                    <tr>
+                        <td>alcohol_advanced_color_intensity_ttest</td>
+                        <td>-1.1390783803464584</td>
+                        <td class="significant">Significant</td>
+                    </tr>
+            
+                    <tr>
+                        <td>alcohol_advanced_color_intensity_bayesian</td>
+                        <td>N/A</td>
+                        <td class="not-significant">Not Significant</td>
+                    </tr>
+            
+                    <tr>
+                        <td>alcohol_advanced_color_intensity_bootstrap</td>
+                        <td>N/A</td>
+                        <td class="significant">Significant</td>
+                    </tr>
+            
+                    <tr>
+                        <td>alcohol_advanced_color_intensity_sequential</td>
+                        <td>N/A</td>
+                        <td class="not-significant">Not Significant</td>
+                    </tr>
+            
+                </table>
+            </div>
+            
+            <div class="section">
+                <h2>Recommendations</h2>
+        <div class='metric'>• Implement changes related to proline - large effect detected (d=-1.52)</div><div class='metric'>• Implement changes related to color - large effect detected (d=-1.14)</div><div class='metric'>• Implement changes related to color - large effect detected (d=-1.14)</div>
+            </div>
+        </body>
+        </html>
+        

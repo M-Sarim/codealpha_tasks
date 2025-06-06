@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "generated_at": "2025-06-07T01:53:02.236270",
+    "analysis_type": "A/B Testing",
+    "dataset": "Wine Dataset"
+  },
+  "executive_summary": {
+    "test_date": "2025-06-07",
+    "total_tests_performed": 18,
+    "significant_results": 10,
+    "significance_rate": "55.6%",
+    "top_findings": [
+      [
+        "alcohol_comprehensive_proline_ttest",
+        1.52061552791595
+      ],
+      [
+        "alcohol_comprehensive_color_intensity_ttest",
+        1.1390783803464584
+      ],
+      [
+        "alcohol_advanced_color_intensity_ttest",
+        1.1390783803464584
+      ]
+    ],
+    "recommendation_priority": "High"
+  },
+  "technical_report": {
+    "methodology": {
+      "statistical_tests": [
+        "Independent t-test",
+        "Mann-Whitney U",
+        "Chi-square"
+      ],
+      "effect_size_measures": [
+        "Cohen's d",
+        "Cram\u00e9r's V",
+        "Cohen's h"
+      ],
+      "significance_level": 0.05,
+      "power_target": 0.8,
+      "multiple_testing_correction": "Bonferroni"
+    },
+    "data_summary": {
+      "total_samples": 178,
+      "features": [
+        "class",
+        "alcohol",
+        "malic_acid",
+        "ash",
+        "alcalinity_of_ash",
+        "magnesium",
+        "total_phenols",
+        "flavanoids",
+        "nonflavanoid_phenols",
+        "proanthocyanins",
+        "color_intensity",
+        "hue",
+        "od280_od315_of_diluted_wines",
+        "proline",
+        "ab_group",
+        "group_binary"
+      ],
+      "missing_data": "0",
+      "data_types": {
+        
